@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>edubook</title>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- css stylesheets -->
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <!--bootstrap scripts JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="coloured-section" id="title">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""><span style="color:blue">edubook</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#signup">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Connect with the world of educators around you.</h1>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/kids globe.gif" class="rotateimg20">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="Featureitem col-lg-4 col-md-12">
+        <i class="icon fas fas fa-chalkboard-teacher fa-4x"></i>
+        <h3 class="feature-title">Connect</h3>
+        <p>Private social network for your own class.</p>
+      </div>
+      <div class="Featureitem col-lg-4 col-md-12">
+        <i class="icon fas fas fa-comments fa-4x"></i>
+        <h3 class="feature-title">Collaborate</h3>
+        <p>Collaborate with other teachers and their students.</p>
+      </div>
+      <div class="Featureitem col-lg-4 col-md-12">
+        <i class="icon fas fas fa-book-reader fa-4x"></i>
+        <h3 class="feature-title">Storehouse of teaching aid</h3>
+        <p>One stop for effective and creative ideas to make you the best teacher!</p>
+      </div>
+      </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="coloured-section" id="testimonials">
+
+    <div id="testimonial-carousal" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">The shift to remote learning has changed me as a teacher,edubook gave me the <i>power</i> of powerpoint to make learning interactive and fun.</h2>
+          <img class="testimonial-image" src="images/phebe.JPG" alt="lady-profile">
+          <em>Silvy, New Delhi</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Safe venue for teachers and students to continue their learning outside the classroom.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousal" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousal" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+  </section>
+<!-- Sign UP -->
+<section class="white-section" id="signup">
+  <div class="container-fluid">
+  <h2 class="section-headings">Join the <span style="color:blue">edubook </span>platform.</h2>
+  <p>Its quick and easy.</p>
+  <form action="/" class="form-signin" method="post">
+    <input type="text" class="form-control top" placeholder="First Name" required autofocus  name="firstname">
+    <input type="text" class="form-control middle" placeholder="Last Name" name="lastname">
+    <input type="email" class="form-control bottom" placeholder="Email" name="email" required>
+    <button class="btn btn-lg btn-success btn-block" type="submit">Sign Me Up!</button>
+  </form>
+</div>
+</section>
+
+  <!-- Call to Action -->
+
+  <section class="coloured-section" id="cta">
+<div class="container-fluid">
+    <h3 class="big-heading">Of the teachers,for the teachers and by the teachers.</h2>
+</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2020 <span style="color:blue">edubook</span></p>
+  </div>
+  </footer>
+
+</body>
+</html>
