@@ -18,12 +18,7 @@ h2{
   line-height: 1.5;
   font-weight: 900;
 }
-.about-heading{
-  margin-top: :25px;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
+
 .section-headings {
   font-size: 3rem;
   line-height: 1.5;
@@ -34,6 +29,7 @@ h2{
 p {
   color: #8f8f8f;
 }
+
 
 /* Containers */
 .container-fluid {
@@ -110,7 +106,7 @@ icon:hover {
 
 .feature-title {
   font-weight: 500;
-  font-size: rem;
+  font-size: 2rem;
 }
 .about-title{
   margin-top:30px;
@@ -183,10 +179,24 @@ icon:hover {
 .social-icon {
   margin: 20px 10px;
 }
+
+#about-title .container-fluid{
+  padding: 5% 10% 3%;
+  text-align: left;
+}
+.about-content{
+  margin-top: 30px;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
 .about-image{
   width:100%;
 
 }
-.about-text{
-  color:white;
+
+.quote{
+  margin-top: 50px;
+color:black;
 }
