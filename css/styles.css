@@ -194,6 +194,7 @@ icon:hover {
   margin: 20px 10px;
 }
 
+
 #about-title .container-fluid{
   padding: 5% 10% 3%;
   text-align: left;
@@ -243,5 +244,5 @@ margin-top:100px;
 }
 .videos{
   margin-top:100px;
-
+margin-bottom:100px;
 }
